@@ -1,0 +1,138 @@
+
+body{
+  margin: 0px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+  background-color: rgb(81, 80, 80);  
+  border-radius: 25px;
+}
+
+
+.navbar li{
+
+   float: left;
+   list-style: none;
+   margin: 30px 27px;
+  }
+
+
+.navbar li :hover{
+
+border-radius: 15px;
+background-color: rgb(228, 50, 50);
+
+
+}
+.navbar ul{
+   overflow: auto;
+}
+.navbar li a{
+   padding: 13px 12px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   text-transform: uppercase;
+  
+   
+
+}
+.navbar input{
+   padding: 3px 5px;
+   margin: 23px 153px;
+  }
+
+
+.foot {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  height: 59px;
+
+}
+
+
+.navbar .logo{
+  padding: 12px 25px;
+  height: 40px;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: gold;
+}
+.content{
+  width:600px;
+  height: auto;
+  margin:auto;
+  color:rgb(67, 34, 9);
+  position: relative;
+}
+.content .par{
+  padding-left: 5px;
+  padding-bottom: 15px;
+  font-family:Arial, Helvetica, sans-serif ;
+  letter-spacing: 0.2px;
+  line-height: 10px;
+  align-content: center;
+  
+}
+
+ 
+
+.content h2{
+  font-family:'Times New Roman', Times, serif ;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-top: 3%;
+  letter-spacing: 2px;
+  margin-bottom: 2%;
+
+}
+.content .list{
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  margin-left: 20px;
+}
+.form{
+  width: 500px ;
+  height: 500px;
+  background: ( rgba(237, 234, 234, 0.8)50%, rgba(237, 234, 234, 0.8)50% );
+  position: absolute;
+  top: 20px;
+  left: 750px;
+  border-radius: 5px ;
+  padding: 100px ;
+
+}
+.form h2{
+  width: 500px;
+  font-family:sans-serif ;
+  text-align: center;
+  color: chocolate;
+  font-size: 22px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+
+}
+
+.background
+{
+  
+  background-image: url(pic3.jpg);
+  width: 1450px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
